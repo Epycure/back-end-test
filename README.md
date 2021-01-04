@@ -54,7 +54,7 @@ Alternatively, you can [download the source code](https://github.com/Epycure/bac
 
 1. [Install PostgreSQL](https://www.postgresqltutorial.com/install-postgresql/) if you haven't already.
 2. Connect to Postgres using a terminal and run `CREATE DATABASE epycure_backend_test;`.
-3. Copy the connexion string into your `.env` file (default should be `postgres://<user>:<password>@127.0.0.1:5432/epycure_backend_test?ssl=false`).
+3. Copy the connexion string into your `.env` file (default should be `postgres://<user>:<password>@127.0.0.1:5432/epycure_backend_test?sslmode=disable&ssl=false`).
 4. Run `npm run install:db` to create the tables.
 
 ### Create a Trello account
